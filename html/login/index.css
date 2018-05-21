@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 524px;
+    position: relative;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+/*main*/
+
+.member {
+    width: 874px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 88px;
+}
+
+.member li:first-child {
+    margin-left: 0px;
+}
+
+.member li {
+    float: left;
+    width: 173px;
+    height: 352px;
+    margin-left: 42px;
+    transition: background .8s;
+}
+
+.member li a {
+    display: block;
+    width: 173px;
+    height: 352px;
+}
+
+.member li.nav1 {
+    background: url('../../img/login/main_nav_icon1.png') #e5e6e6 no-repeat center;
+    box-shadow: 11px 9px 23px -8px #dddddd;
+}
+
+.member li.nav1:hover {
+    background: url('../../img/login/main_nav_icon5.png') #8c8c8c no-repeat center;
+}
+
+.member li.nav2 {
+    background: url('../../img/login/main_nav_icon2.png') #e5e6e6 no-repeat center;
+    box-shadow: 11px 9px 23px -8px #dddddd;
+}
+
+.member li.nav2:hover {
+    background: url('../../img/login/main_nav_icon6.png') #8c8c8c no-repeat center;
+}
+
+.member li.nav3 {
+    background: url('../../img/login/main_nav_icon3.png') #e5e6e6 no-repeat center;
+    box-shadow: 11px 9px 23px -8px #dddddd;
+}
+
+.member li.nav3:hover {
+    background: url('../../img/login/main_nav_icon7.png') #8c8c8c no-repeat center;
+}
+
+.member li.nav4 {
+    background: url('../../img/login/main_nav_icon4.png') #e5e6e6 no-repeat center;
+    box-shadow: 11px 9px 23px -8px #dddddd;
+}
+
+.member li.nav4:hover {
+    background: url('../../img/login/main_nav_icon8.png') #8c8c8c no-repeat center;
+    box-shadow: 11px 9px 23px -8px #dddddd;
+}
+
+/*会员资料*/
+
+.member-details {
+    padding-top: 64px;
+}
+
+.member-details .bar1-table {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.member-details .bar1-table h1 {
+    font-size: 45.77px;
+    text-align: center;
+    color: #001751;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.member-details .bar1-table .tab-tit {
+    width: 570px;
+    margin-left: auto;
+    margin-top: 28px;
+    margin-right: auto;
+}
+
+.member-details .bar1-table .tab-tit li {
+    float: left;
+    width: 155px;
+    height: 27px;
+    border: solid 3px #001751;
+    text-align: center;
+    line-height: 27px;
+    color: #001751;
+    font-size: 14px;
+    margin-left: 29px;
+    margin-top: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.member-details .bar1-table .tab-tit li.on {
+    color: #ee7700;
+    border: solid 3px #ee7700;
+}
+
+.member-details .bar1-table .tab-cent {
+    margin-top: 42px;
+}
+
+.member-details .bar1-table .tab-cent table {
+    border-collapse:collapse;
+    background: url('../../img/login/table_head_bg.png') no-repeat center 0px;
+}
+
+.member-details .bar1-table .tab-cent table th {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+    font-weight: normal;
+    height: 40px;
+    line-height: 40px;
+}
+
+.member-details .bar1-table .tab-cent table td {
+    font-size: 12px;
+    text-align: center;
+    height: 25px;
+    border-bottom: solid 2px #939292;
+}
+
+.member-details .bar1-table .tab-cent thead {
+    border: none;
+}
+
+.thead {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('../../img/login/table_head_bg.png') no-repeat 0 center;
+}
+
+.thead .ul {
+    width: 661px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thead .li {
+    height: 40px;
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
+.tbody {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+    border-top: solid 3px #8c8a8a;
+}
+
+.tbody .ul {
+    width: 661px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tbody .li {
+    height: 40px;
+    float: left;
+    font-size: 12px;
+    color: #595757;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: solid 3px #989797;
+}
+
+.tbody .li .yellowBg {
+    width: 89px;
+    height: 21px;
+    background: #ee7700;
+    color: #fff;
+    line-height: 21px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.tbody .li .yellowC {
+    color: #ee7700;
+}

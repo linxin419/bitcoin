@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 524px;
+    position: relative;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+.main {
+    padding-bottom: 100px;
+}
+
+.notice {
+    width: 824px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notice .tit {
+    margin-top: 100px;
+    height: 59px;
+    background: url('../../img/notice/tit_h1.gif') no-repeat center;
+}
+
+.notice ul {
+    margin-top: 60px;    
+}
+
+.notice ul li:first-child {
+    margin-top: 0px;
+}
+
+.notice ul li {
+    border: solid 2px #001751;
+    border-radius: 20px;
+    padding-bottom: 29px;
+    margin-top: 30px;
+    transition: border .8s;
+}
+
+.notice ul li:hover {
+    border: solid 2px #ed7700;
+}
+
+.notice ul li:hover .time {
+    background: #ed7700;
+}
+
+.notice ul li:hover .btn {
+    background: #ed7700;
+}
+
+.notice ul li .time {
+    width: 804px;
+    background: #001751;
+    font-size: 15.59px;
+    border-radius: 16px 16px 0 0;
+    height: 47px;
+    line-height: 47px;
+    padding-left: 16px;
+    margin: 0 auto;
+    transition: background .8s;
+}
+
+.notice ul li .cent {
+    width: 820px;
+    height: 109px;
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+.notice ul li .cent h1 {
+    font-size: 24.94px;
+    color: #333333;
+    padding-left: 24px;
+}
+
+.notice ul li .cent p {
+    color: #999999;
+    font-size: 15.59px;
+    width: 772px;
+    overflow: hidden;
+    margin: 0 auto;
+    line-height: 26px;
+    margin-top: 6px;
+}
+
+.notice ul li .btn {
+    width: 83px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    background: #001751;
+    border-radius: 30px;
+    margin-top: 9px;
+    margin-right: 36px;
+    cursor: pointer;
+    transition: background .8s;
+}
+
+/*悬浮*/
+
+.popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+    z-index: 9999;
+}
+
+.popup .view {
+    width: 820px;
+    height: 546px;
+    position: absolute;
+    left: 50%;
+    margin-left: -410px;
+    margin-top: -273px;
+    top: 50%;
+    border-radius: 20px;
+    background: #fff;
+    border: solid 2px #001751;
+}
+
+.popup .view .tit {
+    height: 46px;
+    line-height: 46px;
+    background: #001751;
+    color: #fff;
+    border-radius: 16px 16px 0 0;
+    padding-left: 17px;
+    font-size: 15.59px;
+}
+
+.popup .view .cent {
+    width: 766px;
+    height: 388px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    overflow-y: auto;
+    margin-top: 16px;
+}
+
+.popup .view h1 {
+    padding-left: 30px;
+    font-size: 24.94px;
+    color: #333333;
+    margin-top: 26px;
+}
+
+.popup .view .cent p {
+    color: #999999;
+    font-size: 20px;
+    padding-left: 28px;
+    padding-right: 31px;
+    line-height: 29px;
+}
+
+.popup .view .cent::-webkit-scrollbar {
+    width: 20px;
+    border: solid 1px #999999;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.popup .view .cent::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px #999999;
+}
+
+.popup .view .cent::-webkit-scrollbar-thumb {
+    background-color: #999999;
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px #999999;
+}

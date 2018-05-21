@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 524px;
+    position: relative;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+.personal {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 59px;
+}
+
+.personal h1 {
+    font-size: 42px;
+    color: #001751;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.personal .view {
+    margin-top: 55px;
+}
+
+.personal .photo {
+    width: 171px;
+    padding-right: 77px;
+    border-right: dashed 2px #acabab;
+    margin-left: 309px;
+    height: 380px;
+    padding-top: 23px;
+}
+
+.personal .photo h5 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 20px;
+    color: #595757;
+}
+
+.personal .photo .photo-img {
+    width: 171px;
+    height: 170px;
+}
+
+.personal .photo .change {
+    width: 123px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    background: #ee7700;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 11px;
+}
+
+.personal .photo .user-name {
+    text-align: center;
+    color: #595757;
+    margin-top: 28px;
+}
+
+.personal .photo .user-name p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.personal .photo .user-name span {
+    display: block;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.personal .information {
+    width: 555px;
+    margin-left: 86px;
+    margin-top: 8px;
+}
+
+.personal .information p:first-child {
+    margin-top: 0px;
+}
+
+.personal .information p {
+    color: #595757;
+    margin-top: 28px;
+ }
+
+ .personal .information p span {
+    color: #ee7700;
+ }
+
+.personal .information .address {
+    margin-top: 28px;
+}
+
+.personal .information .address span {
+    display: block;
+    color: #595757;
+    margin-top: 4px;
+}

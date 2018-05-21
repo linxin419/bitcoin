@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 524px;
+    position: relative;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+
+/*main*/
+
+.main {
+    padding-top: 97px;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #001751;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.main .view {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.main .real-right {
+    margin-left: 19px;
+}
+
+.main .real-right p:first-child {
+    margin-top: 0px;
+}
+
+.main .real-right p {
+    margin-top: 12px;
+    position: relative;
+}
+
+.main .real-right span {
+    width: 131px;
+    height: 32px;
+    line-height: 32px;
+    text-align: right;
+    font-size: 12px;
+    color: #595757;
+}
+
+.main .real-right p i {
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f2f2f2), to(rgba(255, 255, 255, 0.2)));
+    width: 230px;
+    height: 30px;
+    border: solid 1px #e0e0e0;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #9f9f9f;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.main .real-right p i em {
+    width: 32px;
+    height: 100%;
+    background: url('../../img/realName/input_top.png') no-repeat center;
+}
+
+.main .real-right p input {
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f2f2f2), to(rgba(255, 255, 255, 0.2)));
+    width: 240px;
+    height: 30px;
+    border: solid 1px #e0e0e0;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.withdrawAddress {
+    width: 800px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.withdrawAddress span {
+    width: 145px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    color: #595757;
+}
+
+.withdrawAddress input {
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f2f2f2), to(rgba(255, 255, 255, 0.2)));
+    width: 635px;
+    height: 30px;
+    border: solid 1px #e0e0e0;
+    padding-left: 15px;
+}
+
+.main .illustrate {
+    width: 377px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 12px;
+    color: #595757;
+    line-height: 20px;
+}
+
+.result-icon {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 69px;
+}
+
+.main.result .illustrate {
+    width: 848px;
+    font-size: 20px;
+    color: #001751;
+    line-height: 29px;
+}
+
+.main .btn {
+    font-size: 16px;
+    color: #fff;
+    width: 199px;
+    height: 37px;
+    background: #001751;
+    border-radius: 5px;
+    line-height: 37px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.main .btn {
+    width: 198px;
+    height: 35px;
+    background: #fff;
+    border: solid 1px #001751;
+    color: #001751;
+}
+
+.main .real-left {
+    width: 374px;
+    height: 244px;
+    margin-top: 48px;
+}
+
+.member {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 88px;
+}
+
+.member li.nav1 {
+    background: url('../../img/login/main_nav_icon1.png') #e5e6e6 no-repeat center;
+    box-shadow: 11px 9px 23px -8px #dddddd;
+}
+
+.member li.nav1:hover {
+    background: url('../../img/login/main_nav_icon5.png') #8c8c8c no-repeat center;
+}
+
+.member li.nav2 {
+    background: url('../../img/login/main_nav_icon2.png') #e5e6e6 no-repeat center;
+    box-shadow: 11px 9px 23px -8px #dddddd;
+}
+
+.member li.nav2:hover {
+    background: url('../../img/login/main_nav_icon6.png') #8c8c8c no-repeat center;
+}
+
+.member li.nav3 {
+    background: url('../../img/login/main_nav_icon3.png') #e5e6e6 no-repeat center;
+    box-shadow: 11px 9px 23px -8px #dddddd;
+}
+
+.member li.nav3:hover {
+    background: url('../../img/login/main_nav_icon7.png') #8c8c8c no-repeat center;
+}
+
+.member li.nav4 {
+    background: url('../../img/login/main_nav_icon4.png') #e5e6e6 no-repeat center;
+    box-shadow: 11px 9px 23px -8px #dddddd;
+}
+
+.member li.nav4:hover {
+    background: url('../../img/login/main_nav_icon8.png') #8c8c8c no-repeat center;
+    box-shadow: 11px 9px 23px -8px #dddddd;
+}

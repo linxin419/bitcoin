@@ -1,0 +1,313 @@
+@charset "utf-8";
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 524px;
+    position: relative;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+.diagram {
+    background: #595757;
+    padding-top: 52px;
+    padding-bottom: 54px;
+}
+
+.diagram .view {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.diagram h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.bar1-diagram {
+    width: 680px;
+    height: 330px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#diagram {
+    width: 2500px;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: -222px;
+    top: -58px;
+}
+
+#diagram1 {
+    width: 680px;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -58px;
+}
+
+#diagram2 {
+    width: 680px;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -58px;
+}
+
+.diagram ul {
+    width: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.diagram ul li:first-child {
+    margin-left: 0px;
+}
+
+.diagram ul li {
+    float: left;
+    margin-left: 22px;
+    font-size: 12.65px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.diagram ul li.on i {
+    background: #00ffbc;
+}
+
+.diagram ul li i {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.diagram ul li p {
+    margin-top: 2px;
+}
+
+.diagram .diagram-arrow {
+    width: 75px;
+    height: 43px;
+    position: absolute;
+    top: 147px;
+    cursor: pointer;
+}
+
+.diagram .diagram-arrowl {
+    left: 0px;
+}
+
+.diagram .diagram-arrowr {
+    right: 0px;
+}
+
+
+/*main*/
+
+.main {
+    padding-top: 64px;
+}
+
+.main .bar1-table {
+    width: 898px;
+    margin: 0 auto;
+}
+
+.main .bar1-table h1 {
+    font-size: 45.77px;
+    text-align: center;
+    color: #001751;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.bar1-table .prompt {
+    font-size: 15px;
+    color: #001751;
+    margin-top: 59px;
+}
+
+.bar1-table .prompt i {
+    width: 13px;
+    height: 13px;
+    background: #ee7700;
+}
+
+.bar1-table .prompt span {
+    margin-left: 8px;
+    line-height: 13px;
+}
+
+/*仿table*/
+
+.main .bar1-table .thead {
+    margin-top: 16px;
+    background: url('../../img/investmentPlan/table_bg.png') no-repeat center 0px;
+    height: 47px;
+}
+
+.main .bar1-table .thead ul {
+    width: 872px;
+    margin: 0 auto;
+}
+
+.main .bar1-table .thead ul li {
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    height: 47px;
+    line-height: 47px;
+}
+
+.main .bar1-table .thead ul li.line {
+    line-height: 47px;
+}
+
+.main .bar1-table .tbody {
+    width: 872px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 41px;
+    border-top: solid 2px #838181;
+    border-bottom: solid 2px #838181;
+    height: 290px;
+}
+
+.main .bar1-table .tbody ul {
+    height: 246px;
+    width: 872px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.main .bar1-table .tbody ul li {
+    width: 872px;
+    margin: 0 auto;
+}
+
+.main .bar1-table .tbody li p {
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    color: #595757;
+    border-bottom: solid 1px #939292;
+    height: 63px;
+    line-height: 63px;
+}
+
+.main .bar1-table .tbody li p .amount {
+    display: block;
+    width: 88px;
+    height: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    text-align: center;
+    color: #fff;
+    background: #ee7700;
+    line-height: 19px;
+    border-radius: 4px;
+}
+
+.main .bar1-table .tbody li p .time-icon {
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    background: url('../../img/investmentPlan/time_icon.png') no-repeat center;
+    margin-right: 2px;
+}
+
+.main .bar1-table .tbody li p .lots-icon {
+    width: 24px;
+    display: block;
+    height: 24px;
+    border: solid 2px #f1902f;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-top: 16px;
+    margin-right: auto;
+}
+
+.tbody li p .lots-icon i {
+    width: 22px;
+    height: 22px;
+    background: #ee7700;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    line-height: 22px;
+    display: block;
+    margin-top: 1px;
+}
+
+.tbody li p .state {
+    color: #45b702;
+}
+
+.tbody li p .operation {
+    width: 53px;
+    height: 20px;
+    border: solid 2px #ee7700;
+    color: #ee7700;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+    display: block;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.tbody li p .profit {
+    width: 90px;
+    height: 18px;
+    background: #68c243;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    display: block;
+    margin-top: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+.bar1-table .tbody ul::-webkit-scrollbar {
+    width: 9px;
+}
+
+.bar1-table .tbody ul::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.bar1-table .tbody ul::-webkit-scrollbar-thumb {
+    background-color: #595757;
+    border-radius: 3px 3px 3px 3px;
+}

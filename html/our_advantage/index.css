@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 503px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 90px;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+.main {
+    margin-bottom: 100px;
+}
+
+.main .bar1 {
+    margin-top: 80px;
+    height: 507px;
+    background: url('../../img/our_advantage/bar1_bg.png') no-repeat center;
+}
+
+.main .bar2 {
+    margin-top: 80px;
+    height: 393px;
+    background: url('../../img/our_advantage/bar2_bg.png') no-repeat center;
+}

@@ -1,0 +1,455 @@
+@charset "utf-8";
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 604px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 90px;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+.banner .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+}
+
+.bar2 {
+    height: 274px;
+    background: url('../../img/register/bar2_bg.png') #001751 no-repeat center;
+}
+
+
+/*popup*/
+
+.popup {
+    width: 366px;
+    padding-bottom: 28px;
+    position: absolute;
+    left: 50%;
+    top: 169px;
+    margin-left: -183px;
+    background: rgba(255, 255, 255, 0.85) none repeat scroll 0 0;
+}
+
+.popup h1 {
+    font-size: 20px;
+    color: #595757;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.popup .input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 303px;
+}
+
+.popup .input p {
+    margin-top: 17px;
+}
+
+.popup .input p input {
+    width: 281px;
+    height: 36px;
+    border: solid 1px #dadada;
+    padding-left: 20px;
+    background: rgba(255, 255, 255, 0.15) none repeat scroll 0 0;
+}
+
+.login .input p.verificationCode input {
+    width: 162px;
+}
+
+.login .input p.verificationCode span {
+    width: 108px;
+    height: 39px;
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+.login .operation {
+    width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+}
+
+.login .operation .label {
+    height: 13px;
+    line-height: 13px;
+    background: url('../../img/register/remember1.png') no-repeat 0 center;
+    font-size: 10.65px;
+    color: #001751;
+    cursor: pointer;
+    padding-left: 17px;
+}
+
+.login .operation .label.checked {
+    background: url('../../img/register/remember2.png') no-repeat 0 center;
+}
+
+.login .operation span {
+    height: 13px;
+    line-height: 13px;
+    color: #001751;
+    font-size: 11px;
+    margin-left: 7px;
+    padding-left: 15px;
+    background: url('../../img/register/forget_icon.png') no-repeat 0 center;
+    cursor: pointer;
+}
+
+.prompt {
+    font-size: 12px;
+    color: #595757;
+    width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background: url('../../img/register/prompt_icon.png') no-repeat right center;
+}
+
+.prompt p {
+    margin-right: 9px;
+}
+
+.prompt a {
+    cursor: pointer;
+    color: #001751;
+    text-decoration: underline;
+    margin-left: 4px;
+}
+
+.popup.register1 .input span {
+    width: 76px;
+    height: 37px;
+    font-size: 10px;
+    color: #595757;
+    text-align: right;
+}
+
+.popup.register1 .input span.on {
+    line-height: 37px;
+}
+
+.popup.register1 .input input {
+    width: 190px;
+    float: left;
+    margin-left: 15px;
+}
+
+.popup.register1 .input i {
+    margin-left: 15px;
+    width: 190px;
+    background: rgba(255, 255, 255, 0.15) none repeat scroll 0 0;
+    height: 36px;
+    border: solid 1px #dadada;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.popup.register1 .input i em {
+    width: 32px;
+    float: right;
+    height: 36px;
+    background: url('../../img/register/input_top.png') no-repeat center;
+}
+
+.popup .btn {
+    width: 303px;
+    height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    background: #001751;
+    text-align: center;
+    line-height: 29px;
+    color: #fff;
+    font-size: 13.69px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.popup.paymentPassword .explain {
+    font-size: 10px;
+    color: #595757;
+    width: 284px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+.popup.paymentPassword h5 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14.27px;
+    color: #595757;
+    margin-top: 11px;
+}
+
+.popup.broker1 .broker-icon {
+    width: 95px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.popup.broker1 h5 {
+    text-align: center;
+    font-size: 16.79px;
+    color: #707172;
+}
+
+.popup.broker1 .explain {
+    font-size: 12.97px;
+    color: #595757;
+    text-align: center;
+    width: 257px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 19px;
+    margin-top: 16px;
+}
+
+.popup.broker3 .view {
+    width: 311px;
+    height: 198px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #001751;
+    border-radius: 20px;
+    margin-top: 32px;
+    padding-top: 75px;
+    position: relative;
+}
+
+.popup.broker3 .broker-icon {
+    width: 101px;
+    height: 101px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    margin-left: -47px;
+    border-radius: 50%;
+}
+
+.popup.broker3 .border {
+    width: 125px;
+    height: 125px;
+    border: solid 3px #e87502;
+    position: absolute;
+    left: 50%;
+    margin-left: -62.5px;
+    border-radius: 50%;
+}
+
+.popup.broker3 .border .test {
+    width: 89px;
+    height: 89px;
+    position: absolute;
+    background: url('../../img/register/border_icon.png');
+    border-radius: 50%;
+    top: 0px;
+    left: 80px;
+}
+
+.popup.broker3 .explain {
+    width: 128px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 135px;
+}
+
+.popup.broker2 .view {
+    width: 311px;
+    height: 198px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #001751;
+    border-radius: 20px;
+    margin-top: 32px;
+    padding-top: 75px;
+    position: relative;
+}
+
+.popup.broker2 .border {
+    width: 147px;
+    height: 147px;
+    border: solid 3px #e87502;
+    position: absolute;
+    left: 50%;
+    margin-left: -73.5px;
+    border-radius: 50%;
+    animation: rond 4s infinite;
+    -webkit-animation: rond 4s infinite;
+    top: 38px;
+}
+
+.popup.broker2 .border .test {
+    width: 89px;
+    height: 89px;
+    position: absolute;
+    background: url('../../img/register/border_icon.png');
+    border-radius: 50%;
+    top: 0px;
+    left: 98px;
+}
+
+.popup.broker2 .explain {
+    font-size: 10px;
+    width: 124px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.popup.broker2 .btn {
+    width: 71px;
+    height: 21px;
+    line-height: 21px;
+    border: solid 1px #fff;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 77px;
+}
+
+.popup.broker2 .button {
+    cursor: pointer;
+}
+
+.popup.broker4 .broker-icon {
+    width: 101px;
+    height: 101px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+}
+
+.popup.broker4 h5 {
+    text-align: center;
+    font-size: 16px;
+    color: #707172;
+    margin-top: 6px;
+}
+
+.popup.broker4 span {
+    display: block;
+    text-align: center;
+    font-size: 11.72px;
+    color: #595757;
+}
+
+.popup.broker4 .success-icon {
+    width: 38px;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    display: block;
+    margin-top: 18px;
+}
+
+.popup.broker4 h4 {
+    font-size: 13.3px;
+    color: #595757;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.popup.broker4 .explain {
+    text-align: center;
+    font-size: 10px;
+    color: #595757;
+}
+
+.popup.register2 .explain {
+    font-size: 12px;
+    color: #666666;
+    width: 288px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 52px;
+}
+
+.popup.register2 .btn {
+    margin-top: 59px;
+}
+
+.popup.register2 .btn span {
+    font-size: 7.47px;
+}
+
+.popup.register3 .success-icon {
+    width: 38px;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    display: block;
+    margin-top: 56px;
+}
+
+.popup.register3 h5 {
+    text-align: center;
+    font-size: 16px;
+    color: #595757;
+    margin-top: 7px;
+}
+
+.popup.register3 .explain {
+    text-align: center;
+    font-size: 12px;
+    color: #595757;
+}
+
+.popup.register3 .btn {
+    margin-top: 59px;
+}
+
+
+/*边框动画*/
+
+@keyframes rond {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rond {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}

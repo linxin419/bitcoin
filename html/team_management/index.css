@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 550px;
+    position: relative;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+.banner-text {
+    position: absolute;
+    top: -538px;
+    width: 518px;
+    height: 350px;
+    right: -143px;
+    background: #071d55;
+    z-index: 999;
+    padding-top: 22px;
+    opacity: 0;
+}
+
+.banner-text p {
+    font-size: 13px;
+    color: #fff;
+    width: 474px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 21px;
+}
+
+.main {
+    margin-top: 123px;
+    margin-bottom: 80px;
+}
+
+.main .view {
+    width: 810px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main .view h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #001751;
+    text-transform: uppercase;
+}
+
+.main .view ul {
+    width: 701px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 71px;
+}
+
+.main .view ul li:first-child {
+    margin-left: 0px;
+}
+
+.main .view ul li {
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    border-bottom: solid 2px #dfe4e5;
+    padding-bottom: 11px;
+    cursor: pointer;
+}
+
+.main .view ul li .team-img {
+    width: 181px;
+    height: 181px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .view ul li.on {
+    position: relative;
+}
+
+.main .view ul li h5 {
+    font-size: 18.28px;
+    color: #ed7700;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.main .view ul li p {
+    margin-top: 5px;
+    font-size: 14.62px;
+    color: #707070;
+}
+
+.main .bar1{
+    background: #131316;
+    position: relative;
+    margin-top: 39px;
+    padding-top: 62px;
+    padding-bottom: 70px;
+}
+
+.main .bar1 i {
+    width: 55px;
+    height: 19px;
+    position: absolute;
+    left: 50%;
+    top: -19px;
+    margin-left: -27.5px;
+    background: url('../../img/team_management/bar1_top.png');
+}
+
+.main .bar1 .bar1-view {
+    width: 897px;
+    margin: 0 auto;
+}
+
+.main .bar1 h5 {
+    font-size: 20px;
+    color: #ed7700;
+    font-weight: normal;
+}
+
+.main .bar1 p {
+    color: #fff;
+    margin-top: 3px;
+}

@@ -1,0 +1,380 @@
+@charset "utf-8";
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 524px;
+    position: relative;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+/*main*/
+
+.main {
+    padding-top: 81px;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 97.68px;
+    color: #001751;
+    text-transform: uppercase;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 42px;
+    color: #001751;
+    text-transform: uppercase;
+    margin-top: 68px;
+}
+
+.main.result h2 {
+    margin-top: 15px;
+}
+
+.thead {
+    margin-top: 87px;
+}
+
+.main p {
+    text-align: center;
+    font-size: 25.84px;
+    color: #001751;
+}
+
+.bar1 {
+    background: #e5e6e6;
+    padding-top: 76px;
+    padding-bottom: 73px;
+}
+
+.bar1 .view {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bar1 .view .bar-user-img {
+    width: 226px;
+    height: 226px;
+}
+
+.bar1 .view .broker {
+    height: 226px;
+    width: 194px;
+    background: #ee7700;
+    color: #fff;
+    padding-left: 38px;
+}
+
+.bar1 .view .broker h3 {
+    font-size: 42px;
+    margin-top: 14px;
+}
+
+.bar1 .view .broker span {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 18px;
+    margin-top: -4px;
+}
+
+.main .bar1 .view .broker p {
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.bar1 .view .my-team {
+    height: 226px;
+    width: 500px;
+    background: #001751;
+    padding-left: 42px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.bar1 .view .my-team h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.bar1 .view .my-team .level {
+    margin-top: 5px;
+}
+
+.bar1 .view .my-team .team-bg {
+    width: 317px;
+    height: 23px;
+    margin-top: 11px;
+    background: url('../../img/agent/4.png') no-repeat 0;
+}
+
+.bar1 .view .my-team .team-view {
+    width: 317px;
+    height: 23px;
+    background: url('../../img/agent/5.png') no-repeat 0;
+}
+
+.bar1 .view .my-team .number {
+    margin-top: 13px;
+}
+
+.bar1 .view .my-team .number span:first-child {
+    margin-left: 0px;
+}
+
+.bar1 .view .my-team .number span {
+    margin-left: 20px;
+}
+
+.bar1 .view .my-team .team-input {
+    margin-top: 15px;
+}
+
+.bar1 .view .my-team .team-input span {
+    float: left;
+    height: 18px;
+    line-height: 18px;
+}
+
+.bar1 .view .my-team .team-input input {
+    width: 300px;
+    height: 18px;
+    padding-left: 18px;
+    margin-left: 9px;
+    float: left;
+}
+
+.bar1 .view .my-team .team-input i {
+    float: left;
+    width: 42px;
+    height: 16px;
+    line-height: 16px;
+    border: solid 2px #553934;
+    text-align: center;
+    margin-left: 5px;
+    color: #553934;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.partner .partner-ul {
+    width: 747px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 67px;
+}
+
+.partner .partner-ul .tit {
+    width: 765px;
+    height: 14px;
+    background: url('../../img/agent/partner_bg.png') no-repeat center;
+    margin-bottom: 22px;
+}
+
+.partner .partner-ul ul.number {
+    border-bottom: solid 2px #a8a8a8;
+}
+
+.partner .partner-ul ul {
+    height: 29px;
+}
+
+.partner .partner-ul .number li {
+    text-align: center;
+    font-size: 9.56px;
+}
+
+.partner .partner-ul li:first-child {
+    width: 68px;
+    line-height: 29px;
+    font-size: 9.56px;
+    color: #595757;
+}
+
+.partner .partner-ul li:last-child {
+    width: 28px;
+    border: none;
+}
+
+.partner .partner-ul li {
+    float: left;
+    border-right: solid 1px #a8a8a8;
+    width: 129px;
+    height: 29px;
+    line-height: 29px;
+}
+
+.partner .partner-ul li .icon {
+    width: 70px;
+    height: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ee7700;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 7.4px;
+    margin-top: 8px;
+    line-height: 11px;
+}
+
+.main .btn {
+    width: 198px;
+    height: 36px;
+    border: solid 2px #001751;
+    color: #001751;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 5px;
+    margin-top: 55px;
+}
+
+.main.result .btn {
+    width: 196px;
+    height: 33px;
+}
+
+.main .illustrate {
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 20px;
+    color: #595757;
+    line-height: 30px;
+}
+
+.main .thead {
+    background: url('../../img/agent/table_bg.png') no-repeat center 0px;
+    width: 704px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .thead ul {
+    width: 643px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .thead li {
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    height: 37px;
+}
+
+.main .thead li.line {
+    line-height: 37px;
+}
+
+.main table {
+    width: 703px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.main table th {
+    font-size: 12px;
+    height: 37px;
+    line-height: 37px;
+    color: #fff;
+}
+
+.tbody ul {
+    width: 703px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 252px;
+    overflow-y: auto;
+    margin-top: 22px;
+}
+
+.tbody ul li {
+    border-bottom: solid #acabab 1px;
+    border-top: solid #acabab 1px;
+    height: 68px;
+    width: 643px;
+    margin: 0 auto;
+    line-height: 68px;
+    font-size: 12px;
+    color: #595757;
+}
+
+.tbody ul li span {
+    float: left;
+    text-align: center;
+}
+
+.tbody ul li .amount i {
+    display: block;
+    width: 90px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ee7700;
+    border-radius: 3px;
+    margin-top: 28px;
+}
+
+.main .tbody {
+    width: 703px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 269px;
+    margin-top: 43px;
+    border-top: solid 2px #6e6c6c;
+    border-bottom: solid 2px #6e6c6c;
+    padding-bottom: 31px;
+}
+
+/*滚动条*/
+
+.main .tbody ul::-webkit-scrollbar {
+    width: 9px;
+}
+
+.main .tbody ul::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.main .tbody ul::-webkit-scrollbar-thumb {
+    background-color: #595757;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.result-icon {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 69px;
+}
+
+.success h2 {
+    margin-top: 15px;
+}

@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 524px;
+    position: relative;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+
+/*main*/
+
+.main {
+    padding-top: 64px;
+}
+
+.main .bar1-table {
+    width: 786px;
+    margin: 0 auto;
+}
+
+.main .bar1-table h1 {
+    font-size: 45.77px;
+    text-align: center;
+    color: #001751;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.main .bar1-table .tab-cent table {
+    border-collapse: collapse;
+    margin-top: 16px;
+    background: url('../../img/myDeal/table_bg.png') no-repeat center 0;
+}
+
+.main .bar1-table .tab-cent table th {
+    text-align: center;
+    color: #fff;
+    border: none;
+    font-weight: normal;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.main .bar1-table .tab-cent table td {
+    font-size: 8.35px;
+    text-align: center;
+    height: 58px;
+    border-bottom: solid 1px #939292;
+    color: #595757;
+}
+
+table td .lots-icon {
+    width: 17px;
+    height: 17px;
+    border: solid 1px #f1902f;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td .lots-icon i {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #ee7700;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    line-height: 15px;
+    border-radius: 50%;
+}
+
+table td .liquidation-icon {
+    width: 78px;
+    height: 13px;
+    line-height: 13px;
+    color: #fff;
+    background: #ee7700;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3px;
+}
+
+table td .sell-icon {
+    color: #45b702;
+}
+
+table td .profitLoss {
+    color: #ff0000;
+}
+
+.bar1-table .prompt {
+    font-size: 15px;
+    color: #001751;
+    margin-top: 59px;
+}
+
+.bar1-table .prompt i {
+    width: 13px;
+    height: 13px;
+    background: #ee7700;
+}
+
+.bar1-table .prompt span {
+    margin-left: 8px;
+    line-height: 13px;
+}

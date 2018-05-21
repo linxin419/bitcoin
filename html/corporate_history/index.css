@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 551px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 90px;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+.main {
+    position: relative;
+}
+
+.main .bar1 {
+    background: #ed7700;
+    color: #fff;
+    padding-top: 63px;
+    padding-bottom: 40px;
+}
+
+.main .bar1 .view {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.main .bar1 .view h1 {
+    font-size: 33.84px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main .bar1 .view i {
+    width: 62px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: #fff;
+    margin-top: 7px;
+}
+
+.main .banner-text {
+    width: 475px;
+    height: 320px;
+    position: absolute;
+    background: #0c1c4d;
+    font-size: 13px;
+    color: #fff;
+    padding-left: 23px;
+    padding-top: 24px;
+    padding-right: 20px;
+    top: -503px;
+    padding-bottom: 28px;
+    left: -58px;
+    opacity: 0;
+}
+
+.main .banner-text p {
+    line-height: 21px;
+}
+
+.main .bar1 ul:first-child {
+    margin-left: 0px;
+    border-right: dashed 2px #fff;
+    padding-right: 84px;
+}
+
+.main .bar1 ul {
+    width: 418px;
+    margin-left: 34px;
+}
+
+.main .bar1 ul li:first-child {
+    margin-top: 0px;
+}
+
+.main-bar1-ul {
+    margin-top: 35px;
+}
+
+.main .bar1 ul li {
+    padding-left: 48px;
+    line-height: 25px;
+    margin-top: 16px;
+    position: relative;
+}
+
+.main .bar1 ul li:before {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #ed7700;
+    border: solid 1px #fff;
+    left: 12px;
+    top: 50%;
+    margin-top: -5.5px;
+    content: '';
+}
+
+.main .bar2 {
+    background: #efefef;
+    padding-top: 86px;
+    padding-bottom: 27px;
+}
+
+.view {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .bar2 h1 {
+    color: #001751;
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main .bar2 ul {
+    margin-top: 58px;
+}
+
+.main .bar2 li.on {
+    position: relative;
+}
+
+.main .bar2 li.on1 .on-img {
+    width: 392px;
+    height: 362px;
+}
+
+.main .bar2 li.on1 .on-text {
+    width: 500px;
+    margin-left: 28px;
+    margin-top: 6px;
+}
+
+.main .bar2 li.on h5 {
+    font-size: 24.72px;
+    color: #595757;
+    margin-bottom: 19px;
+}
+
+.main .bar2 li.on p {
+    font-size: 13px;
+    color: #595757;
+    line-height: 22px;
+	text-align: justify;
+}
+
+.main .bar2 li.on2 {
+    top: -134px;
+}
+
+.main .bar2 li.on2 .on-img {
+    width: 353px;
+    height: 470px;
+    margin-left: 47px;
+}
+
+.main .bar2 li.on2 .on-text {
+    width: 520px;
+    margin-top: 197px;
+}
+
+.main .bar2 li.on3 {
+    top: -103px;
+}
+
+.main .bar2 li.on3 .on-img {
+    width: 407px;
+    height: 352px;
+}
+
+.main .bar2 li.on3 .on-text {
+    width: 562px;
+    margin-left: 31px;
+}
+
+.main .bar2 li.on4 {
+    top: -60px;
+}

@@ -1,0 +1,482 @@
+@charset "utf-8";
+/*banner*/
+
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 524px;
+    position: relative;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.banner .unslider {
+    width: 1920px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+
+/*main*/
+
+.member {
+    width: 874px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 88px;
+}
+
+/*反馈*/
+
+.problem-popup {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    z-index: 99999999;
+}
+
+.problem {
+    width: 758px;
+    height: 352px;
+    border: solid 1px #e0e0e0;
+    position: absolute;
+    left: 50%;
+    margin-left: -379px;
+    top: 50%;
+    margin-top: -176px;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#f2f2f2), to(rgba(255, 255, 255, 1)));
+}
+
+.problem .tit h5 {
+    font-weight: normal;
+    font-size: 13.69px;
+    color: #595757;
+    height: 63px;
+    line-height: 63px;
+    margin-left: 23px;
+}
+
+.problem .tit .problem-down {
+    margin-left: 15px;
+    margin-top: 14px;
+    position: relative;
+}
+
+.problem .tit .problem-down i {
+    width: 223px;
+    height: 38px;
+    border: solid 1px #d9d9d9;
+    font-size: 13.69px;
+    color: #595757;
+    padding-left: 14px;
+    display: block;
+    background: url('../../img/feedback/problem_down_icon.png') no-repeat right center;
+    cursor: pointer;
+    line-height: 38px;
+}
+
+.problem .tit .problem-down ul {
+    width: 236px;
+    height: 250px;
+    overflow: hidden;
+    overflow-y: auto;
+    border-bottom: solid 1px #c6c6c6;
+    top: 40px;
+    position: absolute;
+    background: #f8f8f8;
+    display: none;
+    z-index: 9;
+}
+
+.problem .tit .problem-down ul::-webkit-scrollbar {
+    width: 6px;
+}
+
+.problem .tit .problem-down ul::-webkit-scrollbar-track {
+    background: #d1d1d1;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.problem .tit .problem-down ul::-webkit-scrollbar-thumb {
+    background-color: #696969;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.problem .tit .problem-down li:first-child {
+    border-top: none;
+}
+
+.problem .tit .problem-down li {
+    width: 208px;
+    height: 22px;
+    padding-left: 29px;
+    font-size: 11px;
+    color: #999999;
+    border-top: solid 1px #c6c6c6;
+    border-left: solid 1px #c6c6c6;
+    border-right: solid 1px #c6c6c6;
+    line-height: 22px;
+    cursor: pointer;
+    background: url('../../img/feedback/check2.png') no-repeat 10px center;
+    transition: font-weight 1s,color 1s;
+}
+
+.problem .tit .problem-down li:hover {
+    font-weight: bold;
+    color: #555555;
+}
+
+.problem .tit .problem-down li.on {
+    background: url('../../img/feedback/check1.png') no-repeat 8px center;
+}
+
+.problem .cent {
+    width: 718px;
+    height: 213px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.problem .cent textarea {
+    width: 696px;
+    height: 191px;
+    border: solid 1px #e0e0e0;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.problem .cent li {
+    font-size: 14px;
+    color: #9f9f9f;
+    margin-left: auto;
+    margin-right: auto;
+    width: 677px;
+    line-height: 24px;
+    margin-top: 4px;
+}
+
+.problem .cent p {
+    text-align: center;
+    font-size: 15.62px;
+    color: #9f9f9f;
+    height: 22px;
+    margin-top: -11px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -93px;
+    width: 186px;
+}
+
+.problem .hide {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: url('../../img/feedback/problem_hide.png') no-repeat center;
+    position: absolute;
+    right: 20px;
+    top: 19px;
+    cursor: pointer;
+}
+
+.problem .problem-btn {
+    font-size: 20px;
+    text-align: center;
+    width: 240px;
+    height: 38px;
+    border: solid 1px #203467;
+    color: #203467;
+    line-height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+/*对话弹窗*/
+
+.dialogue-popups {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    z-index: 99999999;
+}
+
+.dialogue-popups .view {
+    width: 820px;
+    height: 424px;
+    position: absolute;
+    left: 50%;
+    margin-left: -410px;
+    top: 50%;
+    margin-top: -212px;
+}
+
+.dialogue-popups .view .tit {
+    width: 100%;
+    height: 23px;
+    background: #000;
+}
+
+.dialogue-popups .view .tit .hide {
+    width: 10px;
+    height: 10px;
+    margin-right: 14px;
+    background: url('../../img/feedback/popup_hide.png') no-repeat center;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.dialogue-popups .view .cent {
+    width: 799px;
+    border-left: solid 10px #cccccc;
+    border-right: solid 10px #cccccc;
+    height: 388px;
+    border-top: solid 1px #9f9f9f;
+    border-bottom: solid 12px #cccccc;
+}
+
+.dialogue-popups .view .cent .window {
+    width: 796px;
+    border-left: solid 2px #efeff0;
+    border-right: solid 2px #efeff0;
+    background: #fff;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 222px;
+    border-top: solid 1px #9f9f9f;
+    position: relative;
+}
+
+.dialogue-popups .cent .window .breakup {
+    width: 100%;
+    height: 13px;
+    background: url('../../img/feedback/popup_breakup.png') no-repeat center;
+    margin-top: 21px;
+}
+
+.dialogue-popups .cent .window li:first-child {
+    margin-top: 0px;
+}
+
+.dialogue-popups .cent .window li {
+    margin-top: 60px;
+}
+
+.dialogue-popups .cent .window li .dialogueContent {
+    float: left;
+}
+
+.dialogue-popups .cent .window li .name-time {
+    font-size: 9.43px;
+}
+
+.dialogue-popups .cent .window li.user {
+    float: left;
+    margin-left: 18px;
+    clear: both;
+}
+
+.dialogue-popups .cent .window li.user .compile {
+    margin-left: 10px;
+    float: left;
+}
+
+.dialogue-popups .cent .window li.user .dialogueContent {
+    background: #001751;
+    font-size: 12.57px;
+    color: #ffffff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 21px;
+    border-radius: 10px;
+}
+
+.dialogue-popups .cent .window li .portrait {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.dialogue-popups .cent .window li.user .portrait {
+    float: left;
+}
+
+.dialogue-popups .cent .window li.user .time {
+    margin-left: 13px;
+}
+
+.dialogue-popups .cent .window li.admin {
+    float: right;
+    margin-right: 25px;
+    clear: both;
+}
+
+.dialogue-popups .cent .window li.admin .compile {
+    float: left;
+    margin-right: 11px;
+}
+
+.dialogue-popups .cent .window li.admin .name {
+    float: right;
+}
+
+.dialogue-popups .cent .window li.admin .time {
+    float: right;
+    margin-right: 9px;
+}
+
+.dialogue-popups .cent .window li.admin .dialogueContent {
+    font-size: 11.89px;
+    color: #ffffff;
+    background: #ee7700;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    float: right;
+    padding-left: 28px;
+    padding-right: 14px;
+    border-radius: 10px;
+}
+
+.dialogue-popups .cent .window li.admin .portrait {
+    float: right;
+}
+
+.dialogue-popups .cent .operation  {
+    width: 800px;
+    height: 20px;
+    background: #efeff0;
+}
+
+.dialogue-popups .cent .inputBox {
+    width: 796px;
+    height: 144px;
+    border-left: solid 2px #efeff0;
+    border-right: solid 2px #efeff0;
+    border-bottom: solid 1px #efeff0;
+    background: #fff;
+    position: relative;
+}
+
+.dialogue-popups .cent .inputBox textarea {
+    padding-left: 20px;
+    font-size: 12px;
+    color: #999999;
+    padding-right: 20px;
+    padding-top: 15px;
+    width: 756px;
+    height: 82px;
+}
+
+.dialogue-popups .cent .inputBox .button {
+    width: 62px;
+    height: 21px;
+    line-height: 21px;
+    color: #fff;
+    font-size: 12.63px;
+    text-align: center;
+    position: absolute;
+    bottom: 13px;
+    background: #011751;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dialogue-popups .cent .inputBox .hide {
+    right: 106px;
+}
+
+.dialogue-popups .cent .inputBox .btn {
+    right: 23px;
+}
+
+.main {
+    padding-top: 64px;
+}
+
+.main .bar1-table {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.main .bar1-table h1 {
+    font-size: 45.77px;
+    text-align: center;
+    color: #001751;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.main .bar1-table .tab-cent {
+    margin-top: 59px;
+}
+
+.main .bar1-table .tab-cent table {
+    border-collapse:collapse;
+    background: url('../../img/feedback/table_bg.png') no-repeat center 0;
+}
+
+.main .bar1-table .tab-cent table th {
+    text-align: center;
+    font-size: 16.47px;
+    color: #fff;
+    border: none;
+    font-weight: normal;
+    height: 47px;
+    line-height: 47px;
+}
+
+.main .bar1-table .tab-cent table td {
+    font-size: 11.56px;
+    text-align: center;
+    height: 66px;
+    border-bottom: solid 2px #c2c2c2;
+    color: #595757;
+}
+
+.main .bar1-table .tab-cent table .append .view {
+    border-top: solid 3px #656363;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main .bar1-table .tab-cent table .append .icon {
+    width: 26px;
+    height: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.main .bar1-table .tab-cent thead {
+    border: none;
+}
+
+.main .bar1-table .tab-cent table td .unread {
+    width: 105px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    background: #ee7700;
+    margin: 0 auto;
+}
+
+.main .bar1-table .tab-cent table td .feedingBack {
+    color: #45b702;
+}
+
+.tab-cent tbody tr.append-tr {
+    cursor: pointer;
+}
